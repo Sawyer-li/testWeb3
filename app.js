@@ -1,6 +1,7 @@
 let Web3 = require('web3');
 let web3;
 let solc = require('solc');
+
 if (typeof web3 !== 'undefined') {
     web3 = new Web3(web3.currentProvider);
 } else {
