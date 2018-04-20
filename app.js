@@ -25,6 +25,7 @@ web3.eth.getAccounts(function(err, res){
     //console.log(res);     
 
 })
+
 web3.eth.getBlockNumber(function(err,res){
     console.log('blockNumber:');
     console.log(res);
